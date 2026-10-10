@@ -1,0 +1,22 @@
+{
+  "name": "project_data_agent",
+  "version": "1.0.0",
+  "description": "llm app for sql",
+  "license": "MIT",
+  "author": "Yu Fan",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.5",
+    "electron": "^44.5.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "openai": "^7.25.0",
+    "sqlite3": "^6.0.1"
+  }
+}
